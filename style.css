@@ -1,0 +1,8 @@
+#input, #output {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#textOutput {
+  border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Caesar's Cipher</title>
+  </head>
+  <body class="bg-dark p-3 text-white">
+    <main>
+      <section id="head" class="text-center pt-5 pb-5">
+        <h1>Ceaser's Cipher</h1>
+      </section>
+      <section id="input">
+        <form class="pb-5">
+          <div class="form-group pb-5">
+            <label for="textInput">Enter text to encrypt or decrypt:</label>
+            <input type="text" name="textInput" id="textInput" class="form-control">
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-4">
+                <label for="shiftInput">Select Value:</label>
+                <input type="number" name="shiftInput" id="shiftInput" class="form-control">
+              </div>
+              <div class="col-4 text-center pt-3">
+                <button type="button" name="button" id="encryptbtn" class="btn btn-primary btn-lg">Encrypt</button>
+              </div>
+              <div class="col-4 text-center pt-3">
+                <button type="button" name="button" id="decryptbtn" class="btn btn-primary btn-lg">Decrypt</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section id="output">
+        <div id="textOutput" class="bg-secondary p-3"></div>
+      </section>
+    </main>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
