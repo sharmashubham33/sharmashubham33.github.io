@@ -13,9 +13,9 @@ function encrypt() {
 
   shift = parseInt(shift);
 
-  lowerAlp = 'abcdefghijklmnopqrstuvxyz';
+  lowerAlp = 'abcdefghijklmnopqrstuvwxyz';
 
-  upperAlp = 'ABCDEFGHIJKLMNOPQRSTUVXYZ';
+  upperAlp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
   let newStr = [];
 
@@ -48,9 +48,9 @@ function decrypt() {
 
   let shift = document.querySelector('#shiftInput').value;
 
-  lowerAlp = 'abcdefghijklmnopqrstuvxyz';
+  lowerAlp = 'abcdefghijklmnopqrstuvwxyz';
 
-  upperAlp = 'ABCDEFGHIJKLMNOPQRSTUVXYZ';
+  upperAlp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
   let newStr = [];
 
